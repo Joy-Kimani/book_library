@@ -6,7 +6,7 @@ services:
     container_name: mssql_library
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=Str0ngP@ssword123
+      - 
     ports:
       - "1433:1433"
     healthcheck:
